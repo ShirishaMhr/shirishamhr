@@ -1,0 +1,48 @@
+@import "footer";
+@import "navbar";
+$primary-color: rgba(0, 0, 0, 0.9);
+
+.navbar {
+    background-color: $primary-color;
+}
+
+figure {
+    img {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    figcaption {
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+@mixin for_contact {
+    width: 100%;
+    padding: 22px 20px;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=number] {
+    @include for_contact;
+    margin: 10px 0;
+}
+
+select {
+    @include for_contact;
+    margin: 1px 0;
+}
+
+#input[type=radio] {
+    @include for_contact;
+    margin: 1px 0;
+    align-content: flex-start;
+
+
+}

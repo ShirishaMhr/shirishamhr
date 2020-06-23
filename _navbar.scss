@@ -1,0 +1,39 @@
+.navbar {
+
+
+
+    ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    li {
+        margin-top: auto;
+        margin-left: 50px;
+        text-align: center;
+        margin-right: 50px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+
+    a {
+        float: left;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-family: Dancing Script;
+        margin-top: 0px;
+        font-size: 22px;
+    }
+
+    .icon {
+        display: none;
+
+    }
+}

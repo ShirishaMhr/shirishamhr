@@ -6,6 +6,7 @@
     <title>Welcome to Siris's World</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=DM Mono' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet'>
@@ -59,6 +60,16 @@
 
         <!-- End smartphone / tablet look -->
     </div>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("navbarId");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
     <div id="home">
 
 
@@ -132,41 +143,65 @@
         <br>
         <div class="flex-container">
             <div class="flex-item">
+
                 <figure>
                     <img src="imagesfolder/IMG_2972.JPG" />
 
                     <figcaption>Thanks giving program</figcaption>
                 </figure>
+                <div class="overlay">
+                    <div class="description">They love to welcome us with warming performance everytime we meet them.
+                    </div>
+                </div>
+
             </div>
             <div class="flex-item">
+
                 <figure>
                     <img src="imagesfolder/IMG_6018.JPG" />
                     <figcaption>Siri Smiling</figcaption>
                 </figure>
+                <div class="overlay">
+                    <div class="description">Outdoor photoshoot inside Kirtipur with school friends</div>
+                </div>
             </div>
             <div class="flex-item">
                 <figure>
                     <img src="imagesfolder/siri8.JPG" />
                     <figcaption>Jacket donation program</figcaption>
                 </figure>
+                <div class="overlay">
+                    <div class="description">After getting jacket, he felt so warm and shook hand with us to show his
+                        gratitude</div>
+                </div>
+
             </div>
             <div class="flex-item">
                 <figure>
                     <img src="imagesfolder/oo4.JPG" />
                     <figcaption>Shooting Time</figcaption>
                 </figure>
+                <div class="overlay">
+                    <div class="description"> Official shoot for WTF episode 2</div>
+                </div>
             </div>
             <div class="flex-item">
                 <figure>
                     <img src="imagesfolder/siri5.jpg" />
                     <figcaption>Motivation session</figcaption>
                 </figure>
+                <div class="overlay">
+                    <div class="description">Sharing my journey about how I help hundreds of childrens every year</div>
+                </div>
             </div>
             <div class="flex-item">
                 <figure>
                     <img src="imagesfolder/siri6.JPG" />
                     <figcaption>Bethanchowk memories</figcaption>
                 </figure>
+                <div class="overlay">
+                    <div class="description">They wanted to take selfie saying "hy"</div>
+                </div>
             </div>
         </div>
 
@@ -241,16 +276,7 @@
 
         <p>Copyright © 2020 Shirisha. All Rights Reserved</p>
     </footer>
-    <script type="text/javascript">
-        function myFunction() {
-            var x = document.getElementById("navbarId");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        }
-    </script>
+
 
 
 </body>
